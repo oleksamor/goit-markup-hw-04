@@ -195,9 +195,13 @@ body {
 /* =================HERO================= */
 
 .hero {
-  background: var(--dark-color-bg);
+  background-color: var(--dark-color-bg);
   text-align: center;
   padding: 188px 0;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -279,6 +283,22 @@ body {
 
 .feature-item:last-child {
   margin-right: 0;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  fill: var(--dark-color-bg);
+  /* transform: translateX(50%); */
+}
+.feature-icon-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background: var(--light-color-bg);
+  border-radius: 4px;
 }
 /** =========== /feature =============*/
 
