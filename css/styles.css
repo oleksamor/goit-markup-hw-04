@@ -383,6 +383,34 @@ body {
 }
 /* ========= /portrfolio cards ============== */
 
+/* ================Customers=================== */
+.customers {
+  padding-bottom: 130px;
+  padding-top: 120px;
+}
+
+.customers-item {
+  display: flex;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  margin-right: 24px;
+  border: 1px solid var(--sabtle-text-color-bg);
+  border-radius: 4px;
+}
+
+.customers-item:last-child {
+  margin-right: 0;
+}
+
+.customers-icon {
+  display: flex;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+}
+/* =============== /Customers=================== */
+
 /* =============FOOTER=================== */
 .footer-content {
   background: var(--dark-color-bg);
