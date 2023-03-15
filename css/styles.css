@@ -295,7 +295,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 264px;
+  margin-bottom: 8px;
   height: 112px;
   background: var(--light-color-bg);
   border-radius: 4px;
