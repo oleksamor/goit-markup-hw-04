@@ -110,12 +110,6 @@ body {
   color: var(--text-color-bg);
 }
 
-.footer-text {
-  color: var(--accent-color);
-  width: 264px;
-  margin-top: 16px;
-}
-
 /* ================== /COMPONENTS ================== */
 
 /*========= HEADER ===============*/
@@ -161,9 +155,6 @@ body {
   color: var(--dark-color-bg);
 }
 
-.header-item {
-  /* margin-left: 40px; */
-}
 .header-item:last-child {
   margin-right: 0;
 }
@@ -198,7 +189,9 @@ body {
   background-color: var(--dark-color-bg);
   text-align: center;
   padding: 188px 0;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/icons/Dark-bg.png), url(../images/hero.jpg);
+  max-width: 1600px;
+  height: 600px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -385,13 +378,14 @@ body {
 
 /* ================Customers=================== */
 .customers {
-  padding-bottom: 130px;
+  padding-bottom: 120px;
   padding-top: 120px;
 }
 
-.customers-item {
+.customers-link {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
   margin-right: 24px;
@@ -403,11 +397,21 @@ body {
   margin-right: 0;
 }
 
-.customers-icon {
-  display: flex;
-  justify-content: center;
+.svg-link {
   width: 104px;
   height: 56px;
+  fill: var(--sabtle-text-color-bg);
+  /* outline: 5px solid brown; */
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--primary-brand-color);
+}
+
+.customers-link:hover .svg-link,
+.customers-link:focus .svg-link {
+  fill: var(--primary-brand-color);
 }
 /* =============== /Customers=================== */
 
@@ -416,7 +420,39 @@ body {
   background: var(--dark-color-bg);
   padding: 100px 0;
 }
-.modal {
+
+.footer-container {
+  display: flex;
+  gap: 16px;
 }
-.modal-lllll {
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+.footer-soc-media {
+  margin-left: 120px;
+}
+.footer-text {
+  color: var(--accent-color);
+  width: 264px;
+  margin-top: 16px;
+}
+.footer-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+
+.footer-icon {
+  fill: #da1140;
+}
+.team-soc-media {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
