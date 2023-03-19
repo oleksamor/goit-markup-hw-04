@@ -190,13 +190,17 @@ body {
   text-align: center;
   padding: 188px 0;
   background-image: url(../images/icons/Dark-bg.png), url(../images/hero.jpg);
-  max-width: 1600px;
+  max-width: 1440px;
   height: 600px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.hero{
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7) rgba(46, 47, 66, 0.7))
+
+}
 .hero-container {
   margin: 0 auto;
   text-align: center;
@@ -382,13 +386,17 @@ body {
 /* ========= /portrfolio filters ============== */
 
 /* ========= portrfolio cards ============== */
-
+.cards-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
 .cards-set {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
   margin-top: 72px;
+  
 }
 
 .card-content {
