@@ -186,6 +186,8 @@ body {
 /* =================HERO================= */
 
 .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
+  );
   background-color: var(--dark-color-bg);
   text-align: center;
   padding: 188px 0;
@@ -197,10 +199,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero{
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7) rgba(46, 47, 66, 0.7))
+/* .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
+  );
+} */
 
-}
 .hero-container {
   margin: 0 auto;
   text-align: center;
@@ -388,7 +391,8 @@ border-radius: 4px;
 /* ========= /portrfolio filters ============== */
 
 /* ========= portrfolio cards ============== */
-.cards-item {
+.cards-item:hover,
+.cards-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
