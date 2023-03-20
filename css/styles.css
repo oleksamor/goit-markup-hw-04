@@ -319,18 +319,12 @@ border-radius: 4px;
 
 .item {
   background: rgb(255, 255, 255);
-  margin-right: 24px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
-.item:last-child {
-  margin-right: 0;
-}
-.action-item {
-  margin-right: 24px;
-}
+
 /* =================== /ACTIVE ============== */
 
 /* =================== Team ============== */
@@ -340,6 +334,7 @@ border-radius: 4px;
   padding-bottom: 120px;
   padding-top: 120px;
 }
+
 .team-soc-media {
   display: flex;
   justify-content: center;
@@ -352,6 +347,11 @@ border-radius: 4px;
 }
 
 .socmedia-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-icon {
   width: 24px;
   height: 24px;
 }
@@ -422,9 +422,6 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
-/* .customers-item:last-child {
-  margin-right: 0;
-} */
 
 .svg-link {
   width: 104px;
@@ -471,10 +468,11 @@ border-radius: 4px;
 }
 
 .footer-title {
-  color: var(--accent-color);
+  color: var(--primary-bg-color);
   width: 264px;
   margin: 0;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 .footer-link {
   width: 40px;
@@ -486,7 +484,7 @@ border-radius: 4px;
 }
 
 .footer-icon-bg {
-  background-color: hwb(235 56% 40%);
+  background-color: rgb(252, 252, 255, 0.1);
 }
 
 .team-icon-bg {
@@ -496,7 +494,9 @@ border-radius: 4px;
 .socmedia-icon {
   fill: var(--primary-bg-color);
 }
-
+.footer-icon {
+  fill: var(--primary-bg-color);
+}
 .icon-hover :is(:hover, :focus) {
   background-color: var(--presed-state-color);
 }
