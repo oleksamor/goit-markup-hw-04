@@ -486,7 +486,7 @@ border-radius: 4px;
 }
 
 .footer-icon-bg {
-  background-color: #8e8f99;
+  background-color: hwb(235 56% 40%);
 }
 
 .team-icon-bg {
