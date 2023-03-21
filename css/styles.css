@@ -437,7 +437,7 @@ border-radius: 4px;
 
 .customers-link:hover .svg-link,
 .customers-link:focus .svg-link {
-  fill: var(--primary-brand-color);
+  fill: var(--presed-state-color);
 }
 /* =============== /Customers=================== */
 
@@ -460,7 +460,7 @@ border-radius: 4px;
   margin-left: 120px;
 }
 .footer-text {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
   width: 264px;
   margin: 0;
   margin-top: 16px;
